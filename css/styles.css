@@ -163,3 +163,16 @@ footer {
     margin-top: 50px;
     line-height: 47px;
 }
+
+#slider {
+    width: 100%;
+}
+
+.bx-wrapper, .bx-viewport {
+    max-width: 100% !important;
+    height: 250px !important;
+}
+
+.imgs-cus {
+    width: 100% !important;
+}
