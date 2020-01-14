@@ -1,0 +1,20 @@
+body {
+    background: url(../img/hojas.jpg);
+    background-attachment: fixed;
+}
+
+#logo {
+    background-color: #235e3d;
+}
+
+#menu ul li:hover {
+    background-color: #235e3d;
+}
+
+.btn-more {
+    background-color: #235e3d;
+}
+
+#logout {
+    color: #235e3d;
+}

@@ -1,0 +1,20 @@
+body {
+    background: url(../img/cielo.jpg);
+    background-attachment: fixed;
+}
+
+#logo {
+    background-color: #1f87c4;
+}
+
+#menu ul li:hover {
+    background-color: #1f87c4;
+}
+
+.btn-more {
+    background-color: #1f87c4;
+}
+
+#logout {
+    color: #1f87c4;
+}
