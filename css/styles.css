@@ -69,7 +69,7 @@ body {
     padding: 7px;
 }
 
-.posts h2 {
+h2 {
     font-size: 30px;
     color: #333;
 }
@@ -211,4 +211,24 @@ footer {
 #logout {
     text-decoration: none;
     line-height: 25px;
+}
+
+#box {
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+
+#acordeon {
+    margin-top: 20px;
+}
+
+#reloj {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    border: 5px dashed #333;
+    width: 30%;
+    padding: 30px;
+    margin: 0 auto;
 }
