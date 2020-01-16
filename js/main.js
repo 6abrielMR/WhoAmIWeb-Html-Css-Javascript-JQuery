@@ -120,4 +120,21 @@ $(document).ready(function () {
         }, 1000);
     }
 
+    //Validation
+    if (window.location.href.indexOf('contact') > -1) {
+        let fieldDate = $("form input[name='date']");
+        let fields = $("form input[type='text']", "form input[type='number']");
+
+        fields.val('');
+        
+        fieldDate.datepicker({
+            dateFormat: 'dd/mm/yy'
+        });
+        $.validate({
+            lang: 'es',
+            errorMessagePosition: 'top',
+            scrollToTopOnError: true
+        });
+    }
+
 });
